@@ -1,0 +1,80 @@
+# File Format Explanation:
+# This text file is formatted to store information about rooms, objects, and exits for a text adventure game.
+# Each section is identified with a label (Room, Object, Exit) followed by relevant details.
+# Rooms are defined with their names and descriptions, using the format: Type | Name | Description.
+# Format for Objects: Object | Name | Description | Location
+# Exits are defined with the format: Exit | From Room | To Room(s) | Exit Description | direction of the exit
+
+# Rooms
+Room | Entrance Hallway | A grand entrance with polished marble floors and a dazzling crystal chandelier, setting the tone for your luxurious sleepover at your uncle's opulent mansion.
+Room | Living Room | Lavish with plush sofas, a roaring fireplace, and expansive windows overlooking the moonlit garden, providing a perfect setting for sophisticated late-night conversations.
+Room | Kitchen | State-of-the-art appliances and a warm ambiance, filled with the enticing aroma of gourmet dishes prepared exclusively for your uncle's esteemed guests.
+Room | Bedroom | The master bedroom, adorned with elegant furnishings, a king-sized bed, and luxurious linens, ensuring a night of unparalleled comfort during your lavish sleepover.
+Room | Bathroom | A pristine space with a jacuzzi, a rainforest shower, and gold-accented fixtures, offering the epitome of indulgence for your pre-sleep relaxation.
+Room | Library | Rows of bookshelves showcasing leather-bound classics and rare first editions, providing a refined atmosphere for your late-night literary pursuits.
+Room | Storage | A dimly lit storage room with dusty crates and forgotten relics, creating an air of mystery and intrigue. The scent of aged wood and faint whispers of the past linger, adding an unexpected layer to your opulent sleepover adventure.
+Room | Garden | An impeccably landscaped outdoor space with fragrant flowers, a tranquil fountain, and meandering pathways, creating an enchanting backdrop for your opulent sleepover.
+Room | Laboratory | Equipped with cutting-edge scientific instruments and glassware, showcasing your uncle's dedication to luxury and innovation during your sleepover.
+Room | Office | A sleek, private office space with modern furnishings, offering a secluded retreat for business matters during your luxurious sleepover.
+Room | Observatory | A domed room with a high-powered telescope, offering breathtaking views of the night sky, perfect for celestial observations during your sophisticated sleepover.
+Room | Game Room | An entertainment haven with designer board games, vintage arcade machines, and a bespoke pool table, guaranteeing hours of refined amusement for your sleepover.
+Room | Dining Room | A formal setting with a grand dining table, adorned with fine china and crystal chandeliers, setting the stage for an exquisite midnight feast during your luxurious sleepover.
+Room | Cinema | A private home theater with plush seating, state-of-the-art audiovisual equipment, and a curated selection of films, promising an exclusive cinematic experience for your sleepover.
+Room | Art Studio | Splattered with vibrant pigments, this artistic haven houses canvases, easels, and sculptures, providing a touch of cultural elegance to your sleepover.
+Room | Music Room | Impeccably designed with various instruments, sheet music, and acoustically perfect surroundings, inviting guests to indulge in a refined musical experience during your sleepover.
+Room | Workshop | A creatively charged space with premium tools, workbenches, and artistic projects in progress, reflecting the passion for luxury craftsmanship during your sleepover.
+Room | Wine Cellar | Rows of exquisite wine racks and barrels, creating a sophisticated ambiance for wine enthusiasts to explore and savor during your luxurious sleepover.
+Room | Fitness Room | Outfitted with high-end exercise machines, weights, and mirrored walls, allowing guests to maintain their wellness routines in luxury during the sleepover.
+Room | Roof Terrace | An expansive outdoor terrace with panoramic views, plush seating, and a private bar, providing an exclusive retreat for relaxation and stargazing during your opulent sleepover.
+
+# Objects
+Object | Mysterious Key | An ornate key with intricate engravings, its purpose shrouded in mystery and luxury. | Bathroom
+Object | Golden Locket | A delicate locket containing a miniature portrait, radiating an air of opulence and familial history. | Bedroom
+Object | Ancient Scroll | A weathered parchment adorned with gold leaf, engraved with ancient symbols and hidden messages, adding an extra layer of luxury to your sleepover adventure. | Dining Room
+Object | Baseball Bat | A polished wooden bat, more likely a decorative piece than a tool, reflecting the luxurious taste of your uncle's possessions. | Bedroom
+Object | Broken Hand Mirror | A gilded hand mirror with delicately cracked glass, evoking a sense of past elegance and mystery. | Library
+Object | Treasure Chest | A meticulously crafted chest with intricate carvings, promising hidden treasures that align with the luxurious theme of your sleepover. | Wine Cellar
+Object | Celestial Globe | A luxurious celestial globe crafted from fine materials, showcasing the positions of stars and planets with an added touch of sophistication. | Observatory
+Object | Chess Set | A handcrafted chess set with gold and silver pieces, inviting strategic contemplation in the lap of luxury during your sleepover. | Game Room
+Object | Painter's Palette | A deluxe painter's palette adorned with gold leaf and premium pigments, emphasizing the artistic refinement of your uncle's possessions. | Art Studio
+Object | Musical Note Sheet | A sheet of musical notes written in elegant script, hinting at a musical masterpiece waiting to be discovered in the luxurious mansion during your sleepover. | Music Room
+
+# Exits
+Exit | Entrance Hallway | Living Room | an archway adorned with intricate carvings. | W
+Exit | Living Room | Entrance Hallway | a grand doorway with a welcoming ambiance. | E
+Exit | Living Room | Kitchen | a swinging door leading to the kitchen. | SE
+Exit | Living Room | Library | a wide entrance to the library. | S
+Exit | Kitchen | Living Room | a swinging door connecting to the living room. | NW
+Exit | Kitchen | Dining Room | a formal entrance to the dining room. | S
+Exit | Bedroom | Bathroom | a narrow passage leading to the en-suite bathroom. | N
+Exit | Bedroom | Laboratory | a secure door to the laboratory. | S
+Exit | Bathroom | Bedroom | a simple door connecting to the master bedroom. | S
+Exit | Library | Living Room | a large wooden door leading to the living room. | N
+Exit | Library | Storage | a concealed door leading to the storage room. | Secret passage on the South
+Exit | Storage | Library | a concealed door leading back to the library. | Secret Passage on the East
+Exit | Storage | Garden | a hidden entrance to the garden. | S
+Exit | Storage | Laboratory | a hidden entrance to the laboratory. | W
+Exit | Garden | Storage | a rustic gate leading back to the storage room. | S
+Exit | Laboratory | Bedroom | a secure door connecting to the bedroom. | N
+Exit | Laboratory | Storage | a hidden entrance to the storage room. | E
+Exit | Office | Cinema | an entrance to the private cinema. | Elevator Down to the basement
+Exit | Office | Wine Cellar | a stairwell leading down to the wine cellar. | W
+Exit | Observatory | Workshop | a high-tech door to the workshop. | W
+Exit | Observatory | Roof Terrace | a spiral staircase to the roof terrace. | Upstairs
+Exit | Game Room | Music Room | an open doorway connecting the game room to the music room. | W
+Exit | Game Room | Art Studio | an entrance to the art studio. | E
+Exit | Game Room | Fitness Centre | a glass door leading to the fitness center. | N
+Exit | Dining Room | Kitchen | an entrance to the kitchen. | N
+Exit | Dining Room | Art Studio | a staircase leading to the art studio. | Downstairs
+Exit | Cinema | Art Studio | a door to the art studio. | N
+Exit | Cinema | Office | an entrance to the office. | Elevator Up to the 2nd floor
+Exit | Art Studio | Cinema | an open doorway connecting the art studio to the cinema. | S
+Exit | Art Studio | Dining Room | a staircase leading to the dining room. | Upstairs
+Exit | Art Studio | Game Room | an entrance to the game room. | W
+Exit | Music Room | Game Room | an open doorway connecting the music room to the game room. | E
+Exit | Workshop | Observatory | an entrance to the observatory. | E
+Exit | Workshop | Wine Cellar | an entrance to the wine cellar. | N
+Exit | Wine Cellar | Workshop | a wooden door leading back to the workshop. | S
+Exit | Wine Cellar | Office | an entrance to the office. | E
+Exit | Fitness Room | Game Room | a glass door connecting the fitness room to the game room. | S
+Exit | Roof Terrace | Observatory | a staircase leading back to the observatory. | Downstairs
