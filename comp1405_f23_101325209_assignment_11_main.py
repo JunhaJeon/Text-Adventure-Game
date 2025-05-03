@@ -92,7 +92,7 @@ def game_loop(rooms):
                 break  # Break to re-describe the new room
 
 def main():
-    rooms = parse_data("edited_data.txt")
+    rooms = parse_data("data.txt")
     game_loop(rooms)
 
 if __name__ == "__main__":
