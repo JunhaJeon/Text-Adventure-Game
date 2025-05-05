@@ -1,7 +1,9 @@
 🏰 Mansion Sleepover – Text Adventure Game
 
+
 📖 Description
 This is a classic text-based adventure game set in your uncle's luxurious mansion. Players can explore interconnected rooms, examine ornate objects, and navigate a richly described environment. The game reads room layouts, objects, and exits from an external data file, demonstrating core programming skills such as file I/O, string parsing, data organization, and control flow.
+
 
 🚀 Features
 
@@ -13,17 +15,22 @@ This is a classic text-based adventure game set in your uncle's luxurious mansio
 
 📁 Data-Driven Design: Game world is defined in a structured text file (data.txt), making it easy to expand or modify.
 
+
 🛠️ Technologies Used
 
 Python 3
 
 Core programming concepts: functions, lists, tuples, conditionals, loops, and file handling
 
+
+
 📂 File Structure
 ```
 ├── main.py      # Game logic and command loop
 ├── data.txt     # Room, object, and exit definitions
 ```
+
+
 🎮 How to Play
 
 Ensure Python 3 is installed.
