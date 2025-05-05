@@ -1,5 +1,4 @@
 🏰 Mansion Sleepover – Text Adventure Game
-A Python-based text adventure created for COMP 1405 A/B/C – Introduction to Computer Science I (Fall 2023)
 
 📖 Description
 This is a classic text-based adventure game set in your uncle's luxurious mansion. Players can explore interconnected rooms, examine ornate objects, and navigate a richly described environment. The game reads room layouts, objects, and exits from an external data file, demonstrating core programming skills such as file I/O, string parsing, data organization, and control flow.
@@ -19,9 +18,10 @@ Python 3
 Core programming concepts: functions, lists, tuples, conditionals, loops, and file handling
 
 📂 File Structure
+```
 ├── main.py      # Game logic and command loop
 ├── data.txt     # Room, object, and exit definitions
-
+```
 🎮 How to Play
 Ensure Python 3 is installed.
 
@@ -41,8 +41,8 @@ Movement directions (e.g., north, east, secret passage on the south)
 exit – Quit the game
 
 
-School Project
-This project was part of my coursework for the "COMP2401 Fall 2024" Systems Programming class at Carleton Universiry.
+# School Project
+This project was part of my coursework for the "COMP1405 Fall 2023" at Carleton Universiry.
 
-Contact
+# Contact
 For any questions, feel free to reach out via GitHub issues or email.
