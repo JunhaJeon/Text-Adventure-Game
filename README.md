@@ -28,7 +28,7 @@ Core programming concepts: functions, lists, tuples, conditionals, loops, and fi
 📂 File Structure
 ```
 ├── main.py      # Game logic and command loop
-├── data.txt     # Room, object, and exit definitions
+└── data.txt     # Room, object, and exit definitions
 ```
 
 
