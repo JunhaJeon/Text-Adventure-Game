@@ -23,6 +23,7 @@ Core programming concepts: functions, lists, tuples, conditionals, loops, and fi
 ├── data.txt     # Room, object, and exit definitions
 ```
 🎮 How to Play
+
 Ensure Python 3 is installed.
 
 Clone the repository and navigate to the folder.
