@@ -4,6 +4,7 @@
 This is a classic text-based adventure game set in your uncle's luxurious mansion. Players can explore interconnected rooms, examine ornate objects, and navigate a richly described environment. The game reads room layouts, objects, and exits from an external data file, demonstrating core programming skills such as file I/O, string parsing, data organization, and control flow.
 
 🚀 Features
+
 🗺️ Room Navigation: Explore over 20 lavish rooms, from a grand entrance hall to a hidden laboratory.
 
 🔍 Object Interaction: Examine unique objects to uncover narrative details.
