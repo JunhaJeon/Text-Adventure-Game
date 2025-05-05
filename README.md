@@ -14,6 +14,7 @@ This is a classic text-based adventure game set in your uncle's luxurious mansio
 📁 Data-Driven Design: Game world is defined in a structured text file (data.txt), making it easy to expand or modify.
 
 🛠️ Technologies Used
+
 Python 3
 
 Core programming concepts: functions, lists, tuples, conditionals, loops, and file handling
