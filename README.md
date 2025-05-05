@@ -1,8 +1,48 @@
-# Text-Adventure-Graph
-This project implements a text-based adventure game set in a luxurious mansion. Players can explore rooms, examine objects, and navigate through the mansion using directional commands. The game is built to simulate an immersive exploration experience with a structured data model for rooms, objects, and exits
+🏰 Mansion Sleepover – Text Adventure Game
+A Python-based text adventure created for COMP 1405 A/B/C – Introduction to Computer Science I (Fall 2023)
 
-## Building and Running
-python main.py
+📖 Description
+This is a classic text-based adventure game set in your uncle's luxurious mansion. Players can explore interconnected rooms, examine ornate objects, and navigate a richly described environment. The game reads room layouts, objects, and exits from an external data file, demonstrating core programming skills such as file I/O, string parsing, data organization, and control flow.
 
-## Credits
-Item descriptions for the text adventure game were generated with the assistance of ChatGPT (OpenAI's GPT-3.5).
+🚀 Features
+🗺️ Room Navigation: Explore over 20 lavish rooms, from a grand entrance hall to a hidden laboratory.
+
+🔍 Object Interaction: Examine unique objects to uncover narrative details.
+
+🧠 Command Parser: Supports commands like look, examine <object>, movement directions (e.g., north, secret passage on the south), and exit.
+
+📁 Data-Driven Design: Game world is defined in a structured text file (data.txt), making it easy to expand or modify.
+
+🛠️ Technologies Used
+Python 3
+
+Core programming concepts: functions, lists, tuples, conditionals, loops, and file handling
+
+📂 File Structure
+├── main.py      # Game logic and command loop
+├── data.txt     # Room, object, and exit definitions
+
+🎮 How to Play
+Ensure Python 3 is installed.
+
+Clone the repository and navigate to the folder.
+
+Run the game:
+
+python3 main.py
+Use text commands like:
+
+look – Brief room description
+
+examine <object> – View object details
+
+Movement directions (e.g., north, east, secret passage on the south)
+
+exit – Quit the game
+
+
+School Project
+This project was part of my coursework for the "COMP2401 Fall 2024" Systems Programming class at Carleton Universiry.
+
+Contact
+For any questions, feel free to reach out via GitHub issues or email.
