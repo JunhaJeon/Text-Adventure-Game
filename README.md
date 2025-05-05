@@ -7,13 +7,13 @@ This is a classic text-based adventure game set in your uncle's luxurious mansio
 
 🚀 Features
 
-🗺️ Room Navigation: Explore over 20 lavish rooms, from a grand entrance hall to a hidden laboratory.
+Room Navigation: Explore over 20 lavish rooms, from a grand entrance hall to a hidden laboratory.
 
-🔍 Object Interaction: Examine unique objects to uncover narrative details.
+Object Interaction: Examine unique objects to uncover narrative details.
 
-🧠 Command Parser: Supports commands like look, examine <object>, movement directions (e.g., north, secret passage on the south), and exit.
+Command Parser: Supports commands like look, examine <object>, movement directions (e.g., north, secret passage on the south), and exit.
 
-📁 Data-Driven Design: Game world is defined in a structured text file (data.txt), making it easy to expand or modify.
+Data-Driven Design: Game world is defined in a structured text file (data.txt), making it easy to expand or modify.
 
 
 🛠️ Technologies Used
