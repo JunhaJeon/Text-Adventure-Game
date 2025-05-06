@@ -51,6 +51,9 @@ Movement directions (e.g., north, east, secret passage on the south)
 
 exit – Quit the game
 
+📘 Use of ChatGPT
+
+ChatGPT was used to help generate descriptions for examinable objects in the game. These descriptions were used in the external data file (data.txt).
 
 # School Project
 This project was part of my coursework for the "COMP1405 Fall 2023" at Carleton Universiry.
